@@ -22,6 +22,7 @@ function program1(depth0,data) {
   stack1 = helpers._triageMustache.call(depth0, "outlet", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
   data.buffer.push("</div>");
+  console.log(data.buffer.buffer);
   return buffer;
   
 });

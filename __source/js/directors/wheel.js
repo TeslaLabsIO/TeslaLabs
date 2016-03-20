@@ -48,6 +48,7 @@
 
         animate: function animate(obj, show, rotation, callback) {
             $(obj).each(function (index) {
+                console.log($(this));
                 if (show) {
                     if (Modernizr.touch) {
                         $(this).show().stop(true).animate({
