@@ -43,7 +43,6 @@ App.WheelDirector = {
     animate: function animate(obj, show, rotation, callback) {
         
         $(obj).each(function (index) {
-            console.log($(this));
             if (show) {
                 if (Modernizr.touch) {
                     $(this).show().stop(true).animate({
@@ -150,12 +149,9 @@ App.WheelDirector = {
         }
     },
     show: function () {
-        console.log('show');
         var fins = $('.fin').show();
         var fans = $('#sprocket').find('li.blades').css('display', 'block');
-        console.log(fans);
         var $inner = $('.inner-wheel ul');
-        console.log($inner);
         $inner.css('rotate', 0);
         var innerfans = $inner.find('li').css('display', 'block');
         var innerrotation = (360 / fans.length).toFixed(0) * 1;
@@ -176,7 +172,6 @@ App.WheelDirector = {
         setTimeout(function () {
             $('#sprocket').css('rotate', 0);
             var rotation = (360 / fans.length).toFixed(0);
-            console.warn('TIMEOUT');
             App.WheelDirector.animate(fans, true, rotation);
         });
     },
@@ -461,7 +456,6 @@ App.WheelDirector = {
         }
     },
     toggleWheel: function () {
-        console.log(!$('#sprocket .blades').is(':visible'));
         if (!$('#sprocket .blades').is(':visible')) {
             App.WheelDirector.delta = 0;
             App.WheelDirector.show();
@@ -507,8 +501,6 @@ App.WheelDirector = {
                 wheelItems.push(item);
             });
         });
-        console.log(categories);
-        console.log(wheelItems);
         // add empty wheel items
         remaining = 20 - wheelItems.length;
         for (var e = 0; e < remaining; e++)
@@ -571,7 +563,6 @@ App.WheelDirector = {
                 li.append(anchor.append(div));
                 ul.append(li);
             } else {
-                console.log(item);
                 anchor = new function () {
                     var href = '';
                     if (Modernizr.touch && (APP_Storage.getValue(APP_Storage.appTypeStorage) == "webviewAndriod")) {
@@ -597,7 +588,6 @@ App.WheelDirector = {
                     'class': 'bg',
                     'src': self.path() + innerImg  //'inner_even.png' // (index % 2 == 0 ? 'even' : 'odd') + '.png'
                 }));
-                console.log(indx);
                 div.append($('<img>', {
                     'class': 'bg',
                     'src': self.path() + 'color_' + indx + '.png'
