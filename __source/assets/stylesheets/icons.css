@@ -1,0 +1,14 @@
+﻿.icons {
+  background-image: url(../images/icons.png); }
+
+.channels-list .icons {
+  width: 34px;
+  height: 34px;
+  display: block; }
+.channels-list .fb-wall {
+  background-position: 0 0; }
+.channels-list .tweet {
+  background-position: -40px 0; }
+.channels-list .email {
+  background-position: -80px 0; }
+

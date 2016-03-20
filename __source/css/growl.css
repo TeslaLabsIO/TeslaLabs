@@ -1,0 +1,21 @@
+#jGrowl *{
+    color: #FFFFFF !important;
+}
+
+#jGrowl .danger {
+    border: 1px solid #ff0000;
+}
+
+#jGrowl .warning {
+    border: 1px solid #ffff00;
+}
+
+#jGrowl .info {
+    border: 1px solid #0000ff;
+}
+
+#jGrowl .success {
+    border: 1px solid #008000;
+}
+
+.jGrowl{ margin: 50px 5px }

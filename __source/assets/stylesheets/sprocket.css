@@ -1,0 +1,160 @@
+
+#wheel {
+    -webkit-transform-origin: 0 44px;
+    -moz-transform-origin: 0 44px;
+    -ms-transform-origin: 0 44px;
+    transform-origin: 0 44px;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    top: 50%;
+    margin-top: -45px;
+    /*left: 50%;*/
+    position: absolute;
+    z-index: 100;
+}
+#wheel img, #wheel div {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none; }
+
+#sprocket{
+    /*@include rotation(190deg);*/
+    -webkit-transform-origin: 0 44px;
+    -moz-transform-origin: 0 44px;
+    -ms-transform-origin: 0 44px;
+    transform-origin: 0 44px;
+    width: 241px;
+    margin: 0;
+    padding: 0; }
+#sprocket > li.blades {
+    -webkit-transform-origin: 0 44px;
+    -moz-transform-origin: 0 44px;
+    -ms-transform-origin: 0 44px;
+    transform-origin: 0 44px;
+    text-align: right;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: none; }
+#sprocket > li.blades div {
+    background-repeat: no-repeat;
+    height: 85px;
+    width: 241px; }
+#sprocket > li.blades img.bg {
+    position: absolute;
+    top: 0;
+    left: 0; }
+#sprocket > li.blades img.active {
+    display: none;
+    position: relative; }
+
+.core {
+    -webkit-border-top-right-radius: 40px;
+    -webkit-border-bottom-right-radius: 40px;
+    -webkit-border-bottom-left-radius: 40px;
+    -webkit-border-top-left-radius: 40px;
+    -moz-border-radius-topright: 40px;
+    -moz-border-radius-bottomright: 40px;
+    -moz-border-radius-bottomleft: 40px;
+    -moz-border-radius-topleft: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    cursor: pointer;
+    width: 77px;
+    height: 77px;
+   /* background-color: yellow;*/
+    padding: 1px;
+    position: absolute;
+    top: 50%;
+    margin-top: 3px;
+    margin-left: -38px; }
+.core .xinner-wheel {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    xbackground-image: url(../images/inner-wheel-half.png);
+    width: 157px;
+    height: 155px;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -40px;
+    z-index: 9;
+    background-size: 79px 155px;
+}
+.core .wheel-btn {
+    -webkit-border-top-right-radius: 40px;
+    -webkit-border-bottom-right-radius: 40px;
+    -webkit-border-bottom-left-radius: 40px;
+    -webkit-border-top-left-radius: 40px;
+    -moz-border-radius-topright: 40px;
+    -moz-border-radius-bottomright: 40px;
+    -moz-border-radius-bottomleft: 40px;
+    -moz-border-radius-topleft: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #000;
+    background-image: url(../images/button.png);
+    width: 77px;
+    height: 77px;
+    z-index: 10;
+    position: absolute;
+    cursor: pointer; }
+.core .wheel-btn:active {
+    background-image: url(../images/button-clicked.png); }
+
+
+
+/* category */
+
+
+.inner-wheel ul{
+    /*@include rotation(190deg);*/
+    -webkit-transform-origin: 0 44px;
+    -moz-transform-origin: 0 44px;
+    -ms-transform-origin: 0 44px;
+    transform-origin: 0 44px;
+    width: 241px;
+    margin: 0;
+    padding: 0;
+    left: 39.5px;
+    position: absolute;
+    top: -4.5px;
+}
+.inner-wheel ul li{
+    -webkit-transform-origin: 0 44px;
+    -moz-transform-origin: 0 44px;
+    -ms-transform-origin: 0 44px;
+    transform-origin: 0 44px;
+    text-align: right;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: none;
+    text-align: left;
+    padding-left: 70px;
+    width: 130px;
+    color: #56cbff;
+}
+.inner-wheel ul li div {
+    background-repeat: no-repeat;
+    height: 85px;
+    width: 100%;
+    line-height: 85px;
+    font-size: 14px;
+}

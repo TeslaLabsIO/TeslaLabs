@@ -1,0 +1,33 @@
+
+.rating-container, .icon {background-image:url(../images/sprites.png);background-repeat:no-repeat;text-indent:-999px;overflow:hidden;display:inline-block;}
+
+.rating-container {width:39px;height:6px;float:left;background-position:0 0;margin:2px 0 0 2px;}
+  .stars-1 {background-position:0 -6px;}
+  .stars-2 {background-position:0 -12px;}
+  .stars-3 {background-position:0 -18px;}
+  .stars-4 {background-position:0 -24px;}
+  .stars-5 {background-position:0 -31px;}
+
+.icon.huluplus-colored {background-position:-53px -73px;width:49px;height:11px;}
+.icon.youtube-colored {background-position:-43px -54px;width:33px;height:11px;}
+.icon.netflix-colored {background-position:-47px -90px;width:35px;height:11px;}
+.icon.facebook {background-position:-44px 0;width:57px;height:12px;}
+.icon.twitter {width:51px;height:10px;background-position:-45px -16px;}
+.icon.gmail {background-position:-45px -30px;height:12px;width:33px;}
+.icon.youtube {background-position:0 -51px;height:15px;width:38px;}
+.icon.huluplus {width:50px;height:9px;background-position:0 -72px;}
+.icon.netflix {width:42px;height:15px;background-position:0 -84px;}
+.icon.arrow-more {background-position:-108px -51px;width:8px;height:9px;}
+.facebook-16{background-position:-85px -30px;width:13px;height:12px;}
+.twitter-16{background-position:-99px -29px;width:17px;height:12px;}
+.gmail-16{background-position:-82px -50px;width:24px;height:15px;margin-bottom:-2px;}
+.icon.cnn{background-position:-118px 0;width:25px;height:11px;}
+.icon.espn{background-position:-118px -17px;width:31px;height:9px;}
+.icon.tmz{background-position:-118px -31px;width:29px;height:13px;}
+.icon.livingsocial{background-position:-87px -82px;width:63px;height:23px;}
+.icon.engadget{background-position:-18px -195px;width:13px;height:19px;}
+.icon.huffpost{background-position:0 -200px;width:12px;height:12px;}
+.icon.techcrunch{background-position:-37px -200px;width:25px;height:12px;}
+.settings{background-position:0 -222px;width:43px;height:44px;margin:5px 15px 0 0!important;}
+.search{background-position:-50px -222px;width:26px;height:23px;margin:11px 7px 0 8px!important;}
+.sharing-icon{background-position:-87px -222px;width:37px;height:22px;}

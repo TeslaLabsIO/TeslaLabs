@@ -1,0 +1,18 @@
+.mCSB_scrollTools .mCSB_dragger{
+    width: 4px !important;
+}
+.mCSB_scrollTools .mCSB_draggerContainer{
+    width: 4px !important;
+}
+.mCSB_scrollTools{
+    width: 4px !important;
+}
+.mCSB_scrollTools .mCSB_draggerRail{
+    width: 0px !important;
+}
+.mCSB_inside > .mCSB_container{
+    margin-right: 0px !important;
+}
+/*#mCSB_1_container{
+    height: 100%;
+}*/

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Quay';
+    src: url('../fonts/Quay.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing:1px;
+}
+@font-face {
+    font-family: 'Kievit';
+    src: url('../fonts/KievitScOffc-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing:1px;
+}
